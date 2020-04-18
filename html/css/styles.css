@@ -1,0 +1,25 @@
+a {
+    color: #007bff;
+}
+a:focus, a:visited {
+    color: #007bff;
+}
+.main {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table {
+    border: 1px solid #222;
+}
+table tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+}

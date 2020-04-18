@@ -1,0 +1,15 @@
+{
+    "name": "sergey/hunt.test",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "thingengineer/mysqli-database-class": "dev-master",
+        "jasongrimes/paginator": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Sergey Vasylyshyn",
+            "email": "sergey.vasylyshyn@gmail.com"
+        }
+    ]
+}
