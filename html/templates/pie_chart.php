@@ -20,10 +20,10 @@
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
             ['Budget', 'Projects'],
-            ['< 500', <?=$budgets[0]['budget_count']?>],
-            ['500 - 1000', <?=$budgets[1]['budget_count']?>],
-            ['1000-5000', <?=$budgets[2]['budget_count']?>],
-            ['5000 >', <?=$budgets[3]['budget_count']?>]
+            ['< 500', <?php echo $budgets[0]['budget_count']?>],
+            ['500 - 1000', <?php echo $budgets[1]['budget_count']?>],
+            ['1000-5000', <?php echo $budgets[2]['budget_count']?>],
+            ['5000 >', <?php echo $budgets[3]['budget_count']?>]
         ]);
 
         // Optional; add a title and set the width and height of the chart
